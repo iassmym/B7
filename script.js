@@ -1,37 +1,21 @@
-console.log("B7")
-// funçoes = algo a ser feito
-//fumçoes = oque deve ser executado
-
-// declarando variavel = 
-var nome = "Iasmym"
-
-//abrir e fechar colchetes significa inicio e fim de codigo
-// bloco de codigo{}
-//declarando funçao = 
-function exibirNome(){
-    //executado
-    console.log(nome)
-
-}
-//chamando funçao
-exibirNome();
-
-//declarando funçao
-function andar(){
-    console.log("andando");
-
-}
-
-// chamando a funçao
-andar();
-
-//como pensar em nome de funçao
-//verbos- açao - açao por tras
-//LIVE CODING
-function cumprimentar(){
-    var nomeUsuario = prompt("digite seu nome")
+// Função para calcular a soma
+console.log{
+function somar() {
+    let num1 = prompt("Digite o primeiro número:");
+    let num2 = prompt("Digite o segundo número:");
     
-    alert("ola, " + nomeUsuario)
-}
+    // Converte os valores de entrada para números
+    num1 = parseFloat(num1);
+    num2 = parseFloat(num2);
 
-cumprimentar();
+    // Verifica se os valores são válidos
+    if (isNaN(num1) || isNaN(num2)) {
+        alert("Por favor, digite números válidos.");
+    } else {
+        // Calcula a soma e exibe o resultado
+        let soma = num1 + num2;
+        alert("O total da soma é: " + soma);
+    }
+
+// Chama a função ao carregar a página
+somar(); }
