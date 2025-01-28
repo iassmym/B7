@@ -24,3 +24,14 @@ function andar(){
 
 // chamando a funçao
 andar();
+
+//como pensar em nome de funçao
+//verbos- açao - açao por tras
+//LIVE CODING
+function cumprimentar(){
+    var nomeUsuario = prompt("digite seu nome")
+    
+    alert("ola, " + nomeUsuario)
+}
+
+cumprimentar();
